@@ -3,12 +3,13 @@ package controllers
 import (
 	"context"
 	"fmt"
-	"go-ecommerce/database"
-	"go-ecommerce/models"
-	tokenGenerator "go-ecommerce/tokens"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/VL-037/go-ecommerce/database"
+	"github.com/VL-037/go-ecommerce/models"
+	tokenGenerator "github.com/VL-037/go-ecommerce/tokens"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator"

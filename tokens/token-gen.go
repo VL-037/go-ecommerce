@@ -2,10 +2,11 @@ package token
 
 import (
 	"context"
-	"go-ecommerce/database"
 	"log"
 	"os"
 	"time"
+
+	"github.com/VL-037/go-ecommerce/database"
 
 	jwt "github.com/dgrijalva/jwt-go"
 	"go.mongodb.org/mongo-driver/bson"
